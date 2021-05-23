@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgb(0, 110, 255), rgb(104, 4, 99));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 1.1rem;
+    margin: 0 0 1.7rem 0;
+}
+.textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+}
+.tags{
+    margin-top: 1rem;
+}
+.tag{
+    background: orange;
+    padding: .5rem;
+    border-radius: 10px;
+    margin: .5rem;
+}
